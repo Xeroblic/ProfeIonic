@@ -1,0 +1,19 @@
+<ion-header >
+  <app-cabecera></app-cabecera>
+</ion-header>
+<ion-content [fullscreen]="true"> 
+
+
+ <app-plato *ngFor="let plato of platos" 
+    imagen="{{plato.imagen}}"
+    titulo="{{plato.titulo}}"
+    descripcion="{{plato.descripcion}}"></app-plato>
+  
+  <ion-button (click)="grabar()">Grabar Firestore</ion-button>
+  <ion-button (click)="eliminar()">Eliminar firestore</ion-button>
+  <hr>
+  <ion-button (click)="grabarJSON()">Grabar JSON</ion-button>
+</ion-content>
+<ion-footer>
+  <app-pie></app-pie>
+</ion-footer>

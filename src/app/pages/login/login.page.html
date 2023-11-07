@@ -1,0 +1,39 @@
+<ion-header>
+  
+</ion-header>
+<ion-content [fullscreen]="true" class="fondo">
+    <div class="titulo">Login Usuario</div>
+    <div class="logo"></div>
+  
+    <div style="background-color: rgb(216, 183, 183);
+                margin: 15px;display: flex;">
+      <div>
+        <img src="../../../assets/img/image_22.png" class="icono" alt="">
+      </div>
+      <div>
+        <ion-input [(ngModel)]="usuario" label="Usuario" labelPlacement="floating" 
+        placeholder="ingrese usuario"></ion-input>
+      </div>
+    </div>
+
+    <div style="background-color: rgb(216, 183, 183);
+                margin: 15px;display: flex;">
+      <div>
+        <img src="../../../assets/img/image_22.png" class="icono" 
+             alt="">
+      </div>
+      <div>
+        <ion-input [(ngModel)]="password" label="Password" type="password" 
+                   labelPlacement="floating" 
+                   placeholder="ingrese usuario"></ion-input>
+      </div>
+    </div>
+
+    <div style="margin: 15px;">
+      <ion-button expand="block" (click)="irMenu()">Ingresar</ion-button>
+    </div>
+</ion-content>
+<ion-footer>
+
+
+</ion-footer>

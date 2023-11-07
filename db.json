@@ -1,0 +1,40 @@
+{
+  "recetas": [
+    {
+      "imagen": "../../../assets/img/image_2.png",
+      "titulo": "cazuela",
+      "descripcion": "papas, agua, sal, choclo",
+      "id": 1
+    },
+    {
+      "imagen": "../../../assets/img/image_3.png",
+      "titulo": "pescado",
+      "descripcion": "rico",
+      "id": 2
+    },
+    {
+      "imagen": "../../../assets/img/image_4.png",
+      "titulo": "arroz",
+      "descripcion": "rico pero no",
+      "id": 3
+    },
+    {
+      "imagen": "'../../../assets/img/image_9.png'",
+      "titulo": "pure",
+      "descripcion": "despues de la paga",
+      "id": 4
+    },
+    {
+      "imagen": "../../../assets/img/image_10.png",
+      "titulo": "vegano",
+      "descripcion": "queda con hambre",
+      "id": 5
+    },
+    {
+      "descripcion": "es super rico, pero no me gusta",
+      "titulo": "patitas de chancho",
+      "imagen": "pat.jpg",
+      "id": 6
+    }
+  ]
+}
